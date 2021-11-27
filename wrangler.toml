@@ -1,0 +1,12 @@
+name = "favifetch"
+type = "javascript"
+zone_id = ""
+account_id = 'df5cf47a239a85c04bb28b7e797275e7'
+route = ""
+workers_dev = true
+compatibility_date = "2021-11-27"
+
+[build]
+command = "npm install && npm run build"
+[build.upload]
+format = "service-worker"
