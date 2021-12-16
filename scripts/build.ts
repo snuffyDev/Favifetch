@@ -6,8 +6,7 @@ const run = async () => {
     root: `${root}/src`,
     clearScreen: false,
     build: {
-      emptyOutDir: false,
-
+      emptyOutDir: true,
       outDir: `${root}/dist`,
       rollupOptions: {
         input: `${root}/src/index.ts`,
